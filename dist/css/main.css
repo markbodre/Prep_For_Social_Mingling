@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.btn {
+  background: #db423d;
+  padding: 1.5rem 2rem;
+  border: none;
+  border-radius: 5px; }
+
+.btn-main {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 2rem; }
+  .btn-main:hover {
+    background-color: #c12924; }
+
+.tri-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem; }
+
+.duo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem; }
+
+.lone-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem; }
+
+ul {
+  list-style: none; }
+
+.m-t-one {
+  margin-top: 1rem; }
+
+.m-top-two {
+  margin-top: 2rem; }
+
+.m-b-one {
+  margin-bottom: 1rem; }
+
+.m-b-two {
+  margin-bottom: 2rem; }
+
+.m-y-one {
+  margin: 1rem 0; }
+
+.m-y-two {
+  margin: 2rem 0; }
+
+.p-q {
+  padding: .25rem; }
+
+.py-one {
+  padding: 1rem 0; }
+
+.py-half {
+  padding: .5rem 0; }
+
+.p-top-one {
+  padding-top: 1rem; }
+
+.p-top-two {
+  padding-top: 2rem; }
+
+.p-b-one {
+  padding-bottom: 1rem; }
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden; }
+
+.input-packet {
+  display: flex;
+  flex-direction: column; }
+
+.input-font-size {
+  font-size: 1.5rem; }
+
+.mini-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden; }
+
+.placeholder {
+  opacity: 0%; }
+
+.half-spacer {
+  height: 2.5px;
+  background-color: #db423d; }
+
+.spacer {
+  height: 5px;
+  background-color: #db423d; }
+
+.nav-spacer {
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #db423d; }
+
+.text-align {
+  text-align: center; }
+
+.underline {
+  text-decoration: underline; }
+
+.showcase {
+  z-index: 1;
+  position: relative;
+  background: #333;
+  height: 1700px; }
+  .showcase::before {
+    content: '';
+    background: url("/dist/img/carlos-alfonso-AlBgcDfDG_s-unsplash.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: -1; }
+  .showcase .showcase-container .showcase-content {
+    z-index: 1; }
+    .showcase .showcase-container .showcase-content .navbar {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 1rem;
+      height: 60px;
+      align-items: center; }
+      .showcase .showcase-container .showcase-content .navbar a {
+        font-size: 1.6rem;
+        color: #fff; }
+      .showcase .showcase-container .showcase-content .navbar ul {
+        display: flex;
+        justify-content: flex-end; }
+        .showcase .showcase-container .showcase-content .navbar ul li {
+          padding: 0 1rem; }
+          .showcase .showcase-container .showcase-content .navbar ul li a {
+            color: #fff;
+            font-size: 1.4rem; }
+    .showcase .showcase-container .showcase-content .title-container {
+      position: absolute;
+      top: 250px;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      height: 800px;
+      align-items: center;
+      justify-content: center; }
+      .showcase .showcase-container .showcase-content .title-container h1 {
+        color: #fff;
+        font-size: 7rem;
+        text-align: center; }
+      .showcase .showcase-container .showcase-content .title-container h3 {
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0;
+        font-size: 3.5rem; }
+      .showcase .showcase-container .showcase-content .title-container h4 {
+        color: #fff;
+        text-align: center;
+        padding: 0 0 2rem 0;
+        font-size: 1.5rem; }
+
+.information {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .information::before {
+    content: '';
+    background: #FFE1BD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1; }
+  .information .call-to-action {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center; }
+    .information .call-to-action h2 {
+      text-align: center;
+      padding: 1rem 0; }
+
+.bg-sliding-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url("/dist/img/clark-van-der-beken-1KBCgRD8BDc-unsplash.jpg") no-repeat center center/cover;
+  z-index: -2; }
+
+.sliding-image-window {
+  background: steelblue;
+  height: 500px;
+  width: 100%;
+  opacity: 0; }
+
+.contact-us {
+  background: #FFE1BD; }
+  .contact-us .contact-container {
+    align-items: center;
+    justify-content: center; }
+    .contact-us .contact-container #contact-me-text-body {
+      width: 100%; }
+    .contact-us .contact-container .option {
+      font-size: 1.2rem;
+      padding-left: 1rem;
+      margin: .5rem 0; }
+      .contact-us .contact-container .option input {
+        transform: scale(1.6); }
+
+.footer-main {
+  position: relative;
+  z-index: 2;
+  height: 120px; }
+  .footer-main::before {
+    content: '';
+    position: absolute;
+    background: #FFE1BD;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+  .footer-main .tri-grid {
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    height: 120px; }
+    .footer-main .tri-grid a {
+      color: #db423d;
+      font-size: 1.5rem;
+      font-weight: bold; }
+    .footer-main .tri-grid .social ul {
+      display: flex;
+      flex-direction: row; }
+      .footer-main .tri-grid .social ul li {
+        margin: 0 .5rem; }
+
+.navbar-non-main {
+  position: sticky;
+  top: 0;
+  background: url("/dist/img/clark-van-der-beken-1KBCgRD8BDc-unsplash.jpg") no-repeat center 43%/cover;
+  height: 90px; }
+  .navbar-non-main::before {
+    content: '';
+    position: absolute;
+    background: #FFE1BD;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+  .navbar-non-main .navbar-non-main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 2;
+    height: 90px;
+    align-items: center;
+    justify-content: center; }
+  .navbar-non-main a {
+    font-size: 1.6rem;
+    color: #db423d; }
+  .navbar-non-main ul {
+    display: flex;
+    justify-content: flex-end; }
+    .navbar-non-main ul li {
+      padding: 0 1rem; }
+      .navbar-non-main ul li a {
+        color: #db423d;
+        font-size: 1.4rem; }
+
+.bus-menu-welcome {
+  background: #FFE1BD; }
+  .bus-menu-welcome .bus-menu-welcome-content {
+    margin: 4rem 0 4rem 0; }
+    .bus-menu-welcome .bus-menu-welcome-content h2 {
+      font-size: 3rem; }
+    .bus-menu-welcome .bus-menu-welcome-content h3 {
+      font-size: 1.5rem; }
+
+.business-menu {
+  background: #FFE1BD; }
+  .business-menu .duo-grid {
+    margin: 1rem;
+    grid-gap: 2rem; }
+    .business-menu .duo-grid .genre-card {
+      position: relative;
+      height: 500px; }
+      .business-menu .duo-grid .genre-card img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+      .business-menu .duo-grid .genre-card a {
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        color: white;
+        font-size: 4rem;
+        padding-right: 1rem; }
+
+.thank-you {
+  background: #FFE1BD;
+  padding-top: 10rem; }
+  .thank-you a {
+    color: #db423d; }
+    .thank-you a img {
+      transform: scale(0.8); }
+  .thank-you .thank-you-content .social {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0 10rem 0; }
+
+.bus-list-welcome {
+  background: #FFE1BD;
+  padding-bottom: 2rem; }
+  .bus-list-welcome .bus-list-welcome-content h2 {
+    margin: 2rem;
+    font-size: 3rem; }
+  .bus-list-welcome .bus-list-welcome-content h3 {
+    margin: 1rem 0; }
+  .bus-list-welcome .bus-list-welcome-content h3:first-child {
+    margin-top: 4rem;
+    font-size: 2.5rem; }
+
+.business-list-main {
+  background: #FFE1BD;
+  padding: 2rem 0; }
+  .business-list-main .business-list-content {
+    display: flex; }
+    .business-list-main .business-list-content h6 {
+      font-size: 1.5rem;
+      padding: 0 .5rem;
+      color: black; }
+    .business-list-main .business-list-content a {
+      font-size: 1.5rem;
+      color: black; }
+      .business-list-main .business-list-content a:hover {
+        color: #db423d; }

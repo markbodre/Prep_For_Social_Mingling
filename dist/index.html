@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <script
+      src="https://kit.fontawesome.com/0f39ee294f.js"
+      crossorigin="anonymous"
+    ></script>
+   <link rel="stylesheet" href="css/main.css">
+   <title>Sass Sandbox</title>
+</head>
+<body> 
+   <div class="showcase">
+      <div class="container">
+         <div class="showcase-container">
+            <div class="showcase-content">
+               <nav class="navbar">
+                  <a href="index.html">#PrepForSocialMingling</a>
+                  <ul>
+                     <li><a href="giftcards.html">Gift Cards</a></li>
+                     <li><a href="contact.php">Contact</a></li>
+                     <!-- <li><a href="backflips.html">Backflips</a></li> -->
+                  </ul>
+               </nav>
+               <div class="title-container">
+                  <h1>Prep For Social Mingling</h1>
+                  <h3>Support now. Enjoy later.</h3>
+                  <!-- <h4>Our Local Businesses need your support. Help out by clicking below. </h4> -->
+                  <a href="giftcards.html" class="btn btn-main">Buy A Gift Card From A Local Business</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="information">
+         <div class="container">
+            <div class="call-to-action">
+               <h2> The vast majority of our local businesses are struggling from an unpressidented reduction in commerce.
+               </h2>
+               <h2>The best way to help right now, is to buy gift cards. This gives our local businesses the cash they need to stay affloat until we return to normalcy. </h2>
+               <!-- <a href="giftcards.html" class="btn btn-main">Buy A Gift Card From A Local Business</a> -->
+               <ul>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="spacer"></div>
+   <div class="bg-sliding-image"></div>
+   <div class="sliding-image-window"></div>
+   <div class="spacer"></div>
+   <!-- Contact Page -->
+   <div class="contact-us">
+      <div class="mini-container">
+         <form method ="POST" data-netlify="true" data-netlify-recepcha="true">
+            <div class="contact-container">
+               <h2  class="text-align m-top-two">Contact Information</h2>
+               <p  class="text-align m-top-two">Want your business, your friend's business, or any business you like listed? Fill out the information below. General questions are welcomed also! 
+               </p>
+               <div class="contact-inputs m-top-two m-b-two">
+                  <div class="input-packet m-top-two">
+                     <label for="name" class="input-font-size">First and Last Name </label>
+                     <input class="py-half input-font-size" id="name" type="text" name="name">
+                  </div>
+                  <div class="input-packet m-top-two">
+                     <label for="email" class="input-font-size">E-Mail </label>
+                     <input class="py-half input-font-size" id="email" type="email" name="email">
+                  </div>
+                  <div class="input-packet m-top-two">
+                     <label for="business" class="input-font-size">Name Of Business</label>
+                     <input class="py-half input-font-size" id="business" type="text" name="business-name">
+                  </div>
+                  <div class="input-packet m-top-two">
+                     <label for="business-url" class="input-font-size">Business URL</label>
+                     <input class="py-half input-font-size" id="business-url" type="text" name="business-url">
+                  </div>
+                  <div class="input-packet m-top-two">
+                     <label for="business-gift-card" class="input-font-size">Gift Card Page URL</label>
+                     <input class="py-half input-font-size" id="business-gift-card" type="text" name="gift-card-url">
+                  </div>
+                  <div class="input-packet m-top-two">
+                     <label for="business-url" class="input-font-size">Instagram Handle</label>
+                     <input class="py-half input-font-size" id="instagram" type="text" name="instagram-handle">
+                  </div>
+                  <!-- How do you sell? -->
+                  <h4 class="input-font-size m-top-two m-b-one">How do you sell gift cards?</h4>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="on-site"> On our website</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="via-phone"> Via Phone</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="via-email"> Via E-Mail</label>
+                  </div>
+                  <!-- What kind of business -->
+                  <h4 class="input-font-size m-top-two m-b-one">What kind of business are you?</h4>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="restaurant"> Restaurant or Bar</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="coffee-shop"> Coffee Shop</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="retail"> Retail Shop</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="services"> Professional Services</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="health-wellness"> Health and Wellness</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="experiences"> Experiences (tours, shows, classes, etc.)</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="market"> Farmer's Market Style Vender</label>
+                  </div>
+                  <div class="option">
+                     <label><input class="p-q" type="checkbox" name="artist"> Artist</label>
+                  </div>
+               </div>
+               <!-- Additional Info/Message Body -->
+               <label for="contact-me-text-body" class="input-font-size"> Any additional Information</label>
+               <textarea class="m-b-one" id="contact-me-text-body" name="message" cols="10" rows="10"></textarea>
+            <div class="varify"> 
+               <div data-netflify-recapcha="true"></div>
+            </div>
+            <input type="submit" value=" Submit" class="btn btn-main center m-b-two" >
+            </div>
+         </form>
+      </div>
+   </div>
+   <div class="spacer"></div>
+   <footer class="footer-main">
+      <div class="container">
+         <div class="tri-grid">
+               <a href="https://www.instagram.com/explore/tags/prep4socialmingling/?hl=en" target="_blank">#PrepForSocialMingling</a>
+               <a href="index.html" class="placeholder">Who Made This Page?!?</a>
+               <div class="social">
+                  <ul>
+                     <li><a href="https://www.linkedin.com/in/mark-bozarth-dreher-b945a427/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                     <li><a href="https://www.instagram.com/meadowlarkurlyf/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                     <li><a href="https://github.com/markbodre/PersonalProjects" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+                     <li><a href="https://www.youtube.com/channel/UCujwwcYnNHNBsbyqWNtsWtA?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                  </ul>
+               </div>
+         </div>
+      </div>
+   </footer>
+   <div class="spacer"></div>
+</body>
+</html>
