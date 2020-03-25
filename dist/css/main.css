@@ -5,7 +5,12 @@
 a {
   text-decoration: none; }
 
+a, h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100; }
+
 .btn {
+  display: none;
   background: #db423d;
   padding: 1.5rem 2rem;
   border: none;
@@ -78,6 +83,9 @@ ul {
   padding: 0 2rem;
   overflow: hidden; }
 
+.italic {
+  font-style: italic; }
+
 .input-packet {
   display: flex;
   flex-direction: column; }
@@ -122,7 +130,7 @@ ul {
   height: 1700px; }
   .showcase::before {
     content: '';
-    background: url("/dist/img/carlos-alfonso-AlBgcDfDG_s-unsplash.jpg") no-repeat center center/cover;
+    background: url("../img/carlos-alfonso-AlBgcDfDG_s-unsplash.jpg") no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -220,6 +228,8 @@ ul {
   .contact-us .contact-container {
     align-items: center;
     justify-content: center; }
+    .contact-us .contact-container label {
+      font-family: "Raleway", sans-serif; }
     .contact-us .contact-container #contact-me-text-body {
       width: 100%; }
     .contact-us .contact-container .option {
@@ -227,7 +237,10 @@ ul {
       padding-left: 1rem;
       margin: .5rem 0; }
       .contact-us .contact-container .option input {
-        transform: scale(1.6); }
+        transform: scale(1.5); }
+      .contact-us .contact-container .option label {
+        font-family: "Raleway", sans-serif;
+        margin-left: .75rem; }
 
 .footer-main {
   position: relative;

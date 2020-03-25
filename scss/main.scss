@@ -10,7 +10,8 @@ $light-color: #f4f4f4;
 $dark-color: #333;
 
 // Other Variables
-$font-stack: arial, Helvetica, sans-serif;
+$font-stack: 'Raleway', sans-serif;
+$label-font: 'Raleway', sans-serif;
 
 * {
    margin: 0;
@@ -20,7 +21,12 @@ $font-stack: arial, Helvetica, sans-serif;
 // Standards
 a {text-decoration: none;}
 
+a, h1, h2, h3, h4, h5, h6 {
+   font-family: $font-stack;
+   font-weight: 100;
+}
 .btn {
+   display: none;
    background:$third-color;
    padding: 1.5rem 2rem;
    border: none;
@@ -69,6 +75,9 @@ ul {list-style: none;}
    padding: 0 2rem;
    overflow: hidden; 
 }
+
+.italic { font-style: italic;}
+
 .input-packet {
    display: flex;
    flex-direction: column;
@@ -116,7 +125,7 @@ ul {list-style: none;}
    height: 1700px;
    &::before {
    content: '';
-   background: url("/dist/img/carlos-alfonso-AlBgcDfDG_s-unsplash.jpg")
+   background: url("../img/carlos-alfonso-AlBgcDfDG_s-unsplash.jpg")
    no-repeat center center/cover;
    position: absolute;
    top: 0;
@@ -236,6 +245,9 @@ ul {list-style: none;}
    .contact-container {
       align-items: center;
       justify-content: center;
+      label {
+         font-family: $label-font;
+      }
       #contact-me-text-body {
          width: 100%;
       }
@@ -244,8 +256,13 @@ ul {list-style: none;}
          padding-left: 1rem;
          margin: .5rem 0 ;
          input {
-            transform: scale(1.6);  
+            transform: scale(1.5);
          }
+         label {
+            font-family: $label-font;
+            margin-left: .75rem;
+         }
+         
       }
    }
 }
