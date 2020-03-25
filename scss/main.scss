@@ -26,7 +26,6 @@ a, h1, h2, h3, h4, h5, h6 {
    font-weight: 100;
 }
 .btn {
-   display: none;
    background:$third-color;
    padding: 1.5rem 2rem;
    border: none;
@@ -378,7 +377,7 @@ ul {list-style: none;}
       grid-gap: 2rem;
       .genre-card {
          position: relative;
-         height: 500px;npm
+         height: 500px;
          img {
             object-fit: cover;
             width: 100%;

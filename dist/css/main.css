@@ -10,7 +10,6 @@ a, h1, h2, h3, h4, h5, h6 {
   font-weight: 100; }
 
 .btn {
-  display: none;
   background: #db423d;
   padding: 1.5rem 2rem;
   border: none;
@@ -323,8 +322,7 @@ ul {
     .business-menu .duo-grid .genre-card {
       position: relative;
       height: 500px; }
-      .business-menu .duo-grid .genre-card npm
-img {
+      .business-menu .duo-grid .genre-card img {
         object-fit: cover;
         width: 100%;
         height: 100%; }
