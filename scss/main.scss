@@ -142,7 +142,7 @@ ul {list-style: none;}
             display: grid;
             grid-template-columns: 1fr 2fr;
             grid-gap: 1rem;
-            height: 60px;
+            height: 90px;
             align-items: center;
             a {
                font-size: 1.6rem;
@@ -229,7 +229,7 @@ ul {list-style: none;}
    right: 0;
    height: 100vh;
    width: 100vw;
-   background: url("/dist/img/clark-van-der-beken-1KBCgRD8BDc-unsplash.jpg") no-repeat center center/cover;
+   background: url("../img/clark-van-der-beken-1KBCgRD8BDc-unsplash.jpg") no-repeat center center/cover;
    z-index: -2;
 }
 .sliding-image-window {
@@ -315,8 +315,9 @@ ul {list-style: none;}
 // NAV
 .navbar-non-main {
    position: sticky;
+   z-index: 4;
    top: 0;
-   background: url("/dist/img/clark-van-der-beken-1KBCgRD8BDc-unsplash.jpg")
+   background: url("../img/clark-van-der-beken-1KBCgRD8BDc-unsplash.jpg")
    no-repeat center 43%/cover;
    height: 90px;
    &::before {
@@ -377,7 +378,7 @@ ul {list-style: none;}
       grid-gap: 2rem;
       .genre-card {
          position: relative;
-         height: 500px;
+         height: 500px;npm
          img {
             object-fit: cover;
             width: 100%;
@@ -387,7 +388,7 @@ ul {list-style: none;}
             position: absolute;
             top: 200px;
             left: 50px;
-            color: white;
+            color: black;
             font-size: 4rem;
             padding-right: 1rem;
          }
