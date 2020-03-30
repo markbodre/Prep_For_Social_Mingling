@@ -10,7 +10,7 @@
     ></script>
    <link rel="stylesheet" href="css/main.css">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway:400,400i&display=swap" rel="stylesheet">
-   <title>Sass Sandbox</title>
+   <title>Support Local Austin Businesses</title>
 </head>
 <body> 
    <div class="showcase">
@@ -20,14 +20,15 @@
                <nav class="navbar">
                   <a href="index.html">#PrepForSocialMingling</a>
                   <ul>
-                     <li><a href="giftcards.html">Gift Cards</a></li>
+                     <li><a href="giftcards.html">Buy Local Gift Cards</a></li>
                      <!-- <li><a href="contact.php">Contact</a></li> -->
                      <!-- <li><a href="backflips.html">Backflips</a></li> -->
                   </ul>
                </nav>
                <div class="title-container">
-                  <h1 >Prep For Social Mingling</h1>
-                  <h3>Support now. Enjoy later.</h3>
+                  <h1>Prep For Social Mingling</h1>
+                  <h3>Support Local Now. Enjoy Local Later.</h3>
+                  <h3></h3>
                   <!-- <h4>Our Local Businesses need your support. Help out by clicking below. </h4> -->
                   <a href="giftcards.html" class="btn btn-main">Buy A Gift Card From A Local Business</a>
                </div>
@@ -56,33 +57,36 @@
       <div class="mini-container">
          <form method ="POST" data-netlify="true" data-netlify-recepcha="true">
             <div class="contact-container">
-               <h2 class="text-align m-top-two">Contact Information</h2>
-               <p  class="text-align m-top-two">Want your business, your friend's business, or any business you like listed? Fill out the information below. General questions are welcomed also! 
+               <h2 class="text-align">Add A Business</h2>
+               <div class="spacer"></div>
+               <p  class="text-align m-top-two">Fill out the form below to an your business, your friend's business, or any business you like. General questions and suggestions are welcomed also!
                </p>
+               <!-- Text Inputs For Contact Page -->
+               <div class="spacer"></div>
                <div class="contact-inputs m-top-two m-b-two">
-                  <div class="input-packet m-top-two">
+                  <div class="input-packet">
                      <label for="name" class="input-font-size">First and Last Name </label>
-                     <input class="py-half input-font-size" id="name" type="text" name="name">
+                     <input class="input-font-size" id="name" type="text" name="name">
                   </div>
-                  <div class="input-packet m-top-two">
+                  <div class="input-packet">
                      <label for="email" class="input-font-size">E-Mail </label>
-                     <input class="py-half input-font-size" id="email" type="email" name="email">
+                     <input class="input-font-size" id="email" type="email" name="email">
                   </div>
-                  <div class="input-packet m-top-two">
+                  <div class="input-packet">
                      <label for="business" class="input-font-size">Name Of Business</label>
-                     <input class="py-half input-font-size" id="business" type="text" name="business-name">
+                     <input class="input-font-size" id="business" type="text" name="business-name">
                   </div>
-                  <div class="input-packet m-top-two">
+                  <div class="input-packet">
                      <label for="business-url" class="input-font-size">Business URL</label>
-                     <input class="py-half input-font-size" id="business-url" type="text" name="business-url">
+                     <input class="input-font-size" id="business-url" type="text" name="business-url">
                   </div>
-                  <div class="input-packet m-top-two">
+                  <div class="input-packet">
                      <label for="business-gift-card"class="input-font-size">Gift Card Page URL</label>
-                     <input class="py-half input-font-size" id="business-gift-card" type="text" name="gift-card-url">
+                     <input class="input-font-size" id="business-gift-card" type="text" name="gift-card-url">
                   </div>
-                  <div class="input-packet m-top-two">
+                  <div class="input-packet">
                      <label for="business-url" class="input-font-size">Instagram Handle</label>
-                     <input class="py-half input-font-size" id="instagram" type="text" name="instagram-handle">
+                     <input class="input-font-size" id="instagram" type="text" name="instagram-handle">
                   </div>
                   <!-- How do you sell? -->
                   <h4 class="input-font-size m-top-two m-b-one">How do you sell gift cards?</h4>
@@ -138,7 +142,10 @@
             <div class="varify"> 
                <div data-netflify-recapcha="true"></div>
             </div>
-            <input type="submit" value=" Submit" class="btn btn-main center m-b-two" >
+            <!-- Submit Button -->
+            <div class="item-center-tool">
+               <input type="submit" value=" Submit" class="btn btn-main center m-b-two" >
+            </div>
             </div>
          </form>
       </div>
