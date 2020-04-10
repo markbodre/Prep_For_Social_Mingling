@@ -515,9 +515,10 @@ ul {list-style: none;}
       padding-right: .5rem;
    }
    .business-list-main-wrap {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       .business-list-content {
          display: flex;
          margin: .75rem 0;
