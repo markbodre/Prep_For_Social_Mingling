@@ -1,5 +1,19 @@
 // Tablets and smaller
 @media(max-width: 800px) {
+   .navbar-non-main-genre {
+      height: 135px;
+      .navbar-non-main-genre-content {
+         height: 65px;
+      }
+      .sub-nav {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         a {
+            margin: .2rem 0;
+            text-align: center;
+         }
+      }
+   }
    .business-menu {
       background:$secondary-color;
       .duo-grid{
@@ -77,7 +91,7 @@
             align-items: center;
             justify-content: center;
 
-            margin: 4rem 0 4rem 0;
+            margin: 1rem 0 4rem 0;
          }
       }
    }
@@ -87,6 +101,7 @@
 @media(max-width: 500px) {
    .container {
       max-width: 500px;
+      margin: 0;
    }
 
    // Showcase
@@ -289,6 +304,35 @@
 
 
    // Specfici Business type PAGE 
+   .navbar-non-main-genre {
+      height: 190px;
+      .navbar-non-main-genre-content {
+         padding-top: .5rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         height: 75px;
+         a {
+            margin: .3rem 0;
+         }
+         ul {
+            li {
+               a {
+                  padding-top: .2rem;
+                  border-top: solid $third-color 1px;
+               }
+            }
+         }
+      }
+      .sub-nav {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         a {
+            margin: .2rem 0;
+            text-align: center;
+         }
+      }
+   }
    .bus-list-welcome {
       padding-bottom: 1rem;
       .bus-list-welcome-content {
