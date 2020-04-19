@@ -204,7 +204,7 @@ ul {
   right: 0; }
   .information::before {
     content: '';
-    background: #FFE1BD;
+    background: #FDFAEF;
     position: absolute;
     top: 0;
     left: 0;
@@ -239,7 +239,7 @@ ul {
   opacity: 0; }
 
 .contact-us {
-  background: #FFE1BD; }
+  background: #FDFAEF; }
   .contact-us .contact-container {
     align-items: center;
     justify-content: center; }
@@ -285,7 +285,7 @@ ul {
   .footer-main::before {
     content: '';
     position: absolute;
-    background: #FFE1BD;
+    background: #FDFAEF;
     top: 0;
     left: 0;
     opacity: 0.7;
@@ -330,7 +330,7 @@ ul {
   .navbar-non-main::before {
     content: '';
     position: absolute;
-    background: #FFE1BD;
+    background: #FDFAEF;
     top: 0;
     left: 0;
     opacity: 0.7;
@@ -357,7 +357,7 @@ ul {
           font-size: 1.3rem; }
 
 .bus-menu-welcome {
-  background: #FFE1BD; }
+  background: #FDFAEF; }
   .bus-menu-welcome .bus-menu-welcome-content {
     margin: 2rem 0 2rem 0; }
     .bus-menu-welcome .bus-menu-welcome-content h2 {
@@ -379,7 +379,7 @@ ul {
       padding-top: 2rem; }
 
 .business-menu {
-  background: #FFE1BD; }
+  background: #FDFAEF; }
   .business-menu .duo-grid {
     margin: 1rem;
     grid-gap: 2rem; }
@@ -404,7 +404,7 @@ ul {
       padding-top: 2rem; }
 
 .thank-you {
-  background: #FFE1BD;
+  background: #FDFAEF;
   padding-top: 10rem; }
   .thank-you a {
     color: #db423d; }
@@ -428,7 +428,7 @@ ul {
   .navbar-non-main-genre::before {
     content: '';
     position: absolute;
-    background: #FFE1BD;
+    background: #FDFAEF;
     top: 0;
     left: 0;
     opacity: 0.7;
@@ -466,7 +466,7 @@ ul {
       border-bottom: solid #db423d; }
 
 .bus-list-welcome {
-  background: #FFE1BD;
+  background: #FDFAEF;
   padding-bottom: 2rem; }
   .bus-list-welcome .bus-list-welcome-content h2 {
     font-size: 3rem;
@@ -489,7 +489,7 @@ ul {
     padding: 2rem 0 0 0; }
 
 .business-list-main {
-  background: #FFE1BD;
+  background: #FDFAEF;
   padding: .5rem 0;
   margin: 0; }
   .business-list-main .duo-grid > a:first-child {
@@ -531,7 +531,7 @@ ul {
         margin: .2rem 0;
         text-align: center; }
   .business-menu {
-    background: #FFE1BD; }
+    background: #FDFAEF; }
     .business-menu .duo-grid {
       display: grid;
       grid-template-columns: 1fr; }
