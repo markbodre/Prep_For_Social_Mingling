@@ -417,12 +417,12 @@ ul {list-style: none;}
       margin: 2rem 0 2rem 0 ;
       h2 {
          font-size: 2.3rem;
-         padding-bottom: 2rem;
          padding-top: 0rem;
          text-align: center;
       }
       h2:nth-child(2) {
          border-bottom: solid $third-color 2px;
+         padding-bottom: 2rem;
       }
       h3 {
          font-size: 1.3rem;
